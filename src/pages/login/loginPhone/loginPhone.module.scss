@@ -1,0 +1,73 @@
+.form {
+    .password,
+    .phone {
+      margin-top: 25px;
+      padding-bottom: 3px;
+      border-bottom: 1px solid rgb(167, 165, 165);
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      position: relative;
+      .passwordIcon,
+      .phoneIcon {
+        color: var(--textColor);
+        width: 20px;
+        height: 20px;
+      }
+      .errorPassword{
+        font-size: 14px;
+        position: absolute;
+        top:20px;
+        color: red;
+      }
+      .passwordInput {
+        padding: 6px 0;
+        font-size: 0.875rem;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        border: none;
+        outline: none;
+      }
+    }
+  }
+  .buttonSubmit{
+    margin-top: 25px;
+    background-color: #0190f3;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border: 0 none;
+    border-radius: 5px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+    font-size: 0.875rem;
+  }
+  .loginPhone{
+    margin-top: 25px;
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+    color: #0190f3;
+    font-weight: 500;
+    border:1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px;
+    font-size: 0.875rem;
+  }
+  .forgot{
+    text-align: center;
+    color: var(--textColor);
+      font-size: 0.813em;
+    &:hover{
+        cursor: pointer;
+        color: #0190f3;
+        text-decoration: underline;  
+
+    }
+  }
+.focusError{
+    display: none;
+  }
